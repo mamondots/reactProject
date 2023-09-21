@@ -1,0 +1,11 @@
+*
+{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.menu ul li a{
+    transition:0.5s;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    color:#0055FF;
+}

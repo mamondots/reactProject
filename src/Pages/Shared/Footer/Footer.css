@@ -1,0 +1,16 @@
+.footers{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.footerMenu{
+    position: relative;
+}
+.footerMenu::before{
+    position: absolute;
+    content:"";
+    width:30px;
+    height:3px;
+    border-radius:25px;
+    left:0;
+    bottom:-6px;
+    background-color:#0055FF;
+}

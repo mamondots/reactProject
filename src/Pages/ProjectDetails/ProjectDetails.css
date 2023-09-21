@@ -1,0 +1,19 @@
+.details{
+    background-image: url(../../assets/img/breadcrumb_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    position: relative;
+}
+.details::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color:#091223d2;
+}
+.details-menu li{
+    list-style:none;
+}

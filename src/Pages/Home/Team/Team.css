@@ -1,0 +1,13 @@
+.team-line{
+    position: relative;
+}
+.team-line::before{
+    position: absolute;
+    content:"";
+    bottom:-8px;
+    left:0;
+    width:20%;
+    height:4px;
+    border-radius:25px;
+    background-color:#fff;
+}

@@ -1,0 +1,12 @@
+.first-part{
+    position: relative;
+}
+.first-part::before{
+    position: absolute;
+    content:"";
+    right:-9vh;
+    top:0;
+    height:100%;
+    width:2px;
+    background-color:#fff;
+}

@@ -1,0 +1,21 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+.moren{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.about-icon{
+    position: relative;
+}
+.about-icon::before{
+    position: absolute;
+    width:2px;
+    height:100%;
+    left:-17px;
+    top:0;
+    content:"";
+    background-color:#0055FF;
+}
+.about-years{
+    border-top-right-radius:80px;
+}
